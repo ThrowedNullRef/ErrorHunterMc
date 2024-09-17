@@ -13,7 +13,7 @@ public sealed class ErrorHunterHttpClient
             BaseAddress = new Uri("https://panel.errorhunter.de"),
         };
         
-        _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "ptlc_RXY0mwZ3In1wPeHaiY29G62lopkKGHhRtiXHmvtMH0Z");
+        _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "");
     }
 
     public async Task RunCommandAsync(string command)
